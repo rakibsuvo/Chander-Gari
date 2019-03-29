@@ -1,0 +1,167 @@
+.profile
+{
+	background-color: #fff !important;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	border-radius: 4px;
+	margin-top: 17px;
+}
+.post-profile
+{
+	background-color: #fff !important;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	border-radius: 4px;
+	margin-top: 25px;
+	padding: 0.01em 16px;
+}
+
+
+.profile-body
+{
+	padding: 0.01em 16px;
+}
+
+.w3-center {
+    text-align: center !important;
+}
+
+.h9 {
+    font-size: 20px;
+    font-weight: 400;
+	margin: 10px 0;
+}
+
+.w3-circle {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border: 0;
+	border-top: 1px solid #eee;
+	margin: 20px 0;
+}
+
+/*column*/
+.rcolumn {
+    width: 540px;
+    float: right;
+	margin-top: -300px;
+	margin-right: 35px;
+}
+
+.lcolumn{
+    width: 24.99999%;
+}
+
+
+.post-padding {
+    padding: 8px 16px !important;
+}
+
+.post-time
+{
+    opacity: 0.60;
+    float: right !important;
+    margin-top: 11px;
+}
+
+
+#blogpost input[type="text"]{
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    margin-left: -11px;
+    border-radius: 4px;
+}
+.field {
+    
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+    border-radius: 4px;
+}
+
+.post-button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #fff !important;
+	background-color: #607d8b !important;
+}
+.post-button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+#aa
+{
+	border-radius: 6px;
+}
+.username {
+    font-size: 24px;
+    line-height: 27px;
+    color: #002747;
+    margin-bottom: -6px;
+    margin-top: 20px;
+}
+
+
+.img-bottom {
+    margin-bottom: 16px !important;
+}
+
+select {
+    
+    padding: 3px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+option
+{
+	background-color: transparent;
+}
+
+
+
+textarea {
+    width: 100%;
+    height: 81px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}

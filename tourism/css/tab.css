@@ -1,0 +1,160 @@
+div.tab {
+    overflow: hidden;
+    border: none;
+    background-color: #f27470;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 3px 3px 3px #001c35;
+    /*margin-left: 270px;
+    margin-right: 298px;*/
+    margin: 0px 309px 0px 233px;
+}
+
+
+
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    text-transform: uppercase;
+    width: auto;
+    
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+}
+
+
+/*==============================Hill track=============================================*/
+
+
+div.hilltab {
+    overflow: hidden;
+    border: none;
+    background-color: #f27470;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 3px 3px 3px #001c35;
+    /*margin-left: 270px;
+    margin-right: 298px;*/
+    margin: 0px 315px 0px 233px;
+}
+/* Style the buttons inside the tab */
+div.hilltab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    text-transform: uppercase;
+    width: auto;
+    
+}
+
+/* Change background color of buttons on hover */
+div.hilltab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.hilltab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+}
+/*=====================table style==================*/
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 100%;
+
+  
+}
+
+thead th {
+  background: #88CCF1;
+  color: #FFF;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+
+}
+
+tr:nth-child(even){background-color: #bed7dd}
+
+th {
+  font-family: arial;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+  width: 33.3333%;
+  font-size:15px;
+}
+td {
+  font-family: arial;
+  font-weight: 400;
+  padding: 20px;
+  text-align: center;
+  width: 33.3333%;
+  font-size:15px;
+}
+
+/*
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+*/
